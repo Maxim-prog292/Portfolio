@@ -14,7 +14,7 @@ body {
 }
 #header {
     display: grid;
-    grid-template-columns: repeat(12, 67px);
+    grid-template-columns: repeat(12, 1fr);
     grid-column-gap: 20px;
     width: 1024px;
     min-width: 280px;
@@ -33,7 +33,7 @@ h2 {
     background: #FFC148;
     grid-column: 1/13;
     display: grid;
-    grid-template-columns: repeat(12, 67px);
+    grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(15, 22px);
     grid-column-gap: 20px;
     z-index: 1;
@@ -107,283 +107,102 @@ h3 {
     grid-gap: 20px;
 }
 /*WILLBERIS*/
-.willberis {
+.willberis,
+.flowers,
+.indicorp,
+.expoforum,
+.qubit,
+.smart_dent {
     grid-column: 1/5;
     grid-row: 1/2;
     height: 160px;
-    transition: 1000ms;
+    transition: 800ms;
     position: relative;
     z-index: 3;
     background: #fff;
 }
-.willberis:hover {
-    height: 260px;
-    transition: 800ms;
-}
-.willberis img {
-    width: 328px;
-    height: 160px;
-    z-index: 4;
-    position: absolute;
-}
-
-.willberis p {
-    position: absolute;
-    top: 0;
-    z-index: 1;
-    transition: 800ms;
-    margin-left: 10px;
-    font-family: 'Segoe UI';
-}
-
-.willberis:hover>p.one {
-    transition: 800ms;
-    transform: translateY(165px);
-}
-
-.willberis:hover>p.two {
-    transition: 800ms;
-    transform: translateY(185px);
-}
-
-.willberis:hover>p.three {
-    transition: 800ms;
-    transform: translateY(205px);
-}
-.willberis:hover>p.four {
-    transition: 800ms;
-    transform: translateY(225px);
+.willberis a {
+    color: #000;
 }
 /*FLOWERS*/
 .flowers {
     grid-column: 5/9;
-    grid-row: 1/2;
-    height: 160px;
-    transition: 1000ms;
-    position: relative;
-    z-index: 3;
     background: #292929;
 }
-.flowers:hover {
-    height: 260px;
-    transition: 800ms;
-}
-
-.flowers img {
-    width: 328px;
-    height: 160px;
-    z-index: 4;
-    position: absolute;
-}
-
 .flowers p {
-    position: absolute;
-    top: 0;
-    z-index: 1;
-    transition: 800ms;
-    margin-left: 10px;
-    font-family: 'Segoe UI';
     color: #fff;
 }
-
-.flowers:hover>p.one {
-    transition: 800ms;
-    transform: translateY(165px);
+.flowers a {
+    color: #fff;
 }
-
-.flowers:hover>p.two {
-    transition: 800ms;
-    transform: translateY(185px);
-}
-
-.flowers:hover>p.three {
-    transition: 800ms;
-    transform: translateY(205px);
-}
-
-.flowers:hover>p.four {
-    transition: 800ms;
-    transform: translateY(225px);
-}
-
 /*INDICORP*/
 .indicorp {
     grid-column: 9/13;
-    grid-row: 1/2;
-    height: 160px;
-    transition: 1000ms;
-    position: relative;
-    z-index: 3;
     background: #fff;
 }
-
-.indicorp:hover {
-    height: 260px;
-    transition: 800ms;
+.indicorp a {
+    color: #000;
 }
-
-.indicorp img {
-    width: 328px;
-    height: 160px;
-    z-index: 4;
-    position: absolute;
-}
-
-.indicorp p {
-    position: absolute;
-    top: 0;
-    z-index: 1;
-    transition: 800ms;
-    margin-left: 10px;
-    font-family: 'Segoe UI';
-}
-
-.indicorp:hover>p.one {
-    transition: 800ms;
-    transform: translateY(165px);
-}
-
-.indicorp:hover>p.two {
-    transition: 800ms;
-    transform: translateY(185px);
-}
-
-.indicorp:hover>p.three {
-    transition: 800ms;
-    transform: translateY(205px);
-}
-
-.indicorp:hover>p.four {
-    transition: 800ms;
-    transform: translateY(225px);
-}
-
-/*expoforum*/
+/*EXPOFORUM*/
 .expoforum {
     grid-column: 1/5;
     grid-row: 2/3;
-    height: 160px;
-    transition: 1000ms;
-    position: relative;
     z-index: 2;
     background: #2478fc;
 }
-
-.expoforum:hover {
-    height: 260px;
-    transition: 800ms;
-}
-
-.expoforum img {
-    width: 328px;
-    height: 160px;
-    z-index: 3;
-    position: absolute;
-}
-
 .expoforum p {
-    position: absolute;
-    top: 0;
-    z-index: 1;
-    transition: 800ms;
-    margin-left: 10px;
-    font-family: 'Segoe UI';
     color: #fff;
 }
-
-.expoforum:hover>p.one {
-    transition: 800ms;
-    transform: translateY(165px);
+.expoforum a {
+    color: #fff;
 }
-
-.expoforum:hover>p.two {
-    transition: 800ms;
-    transform: translateY(185px);
-}
-
-.expoforum:hover>p.three {
-    transition: 800ms;
-    transform: translateY(205px);
-}
-
-.expoforum:hover>p.four {
-    transition: 800ms;
-    transform: translateY(225px);
-}
-/*qubit*/
+/*QUBIT*/
 .qubit {
     grid-column: 5/9;
     grid-row: 2/3;
-    height: 160px;
-    transition: 1000ms;
-    position: relative;
     z-index: 2;
     background: #f6bed9;
 }
-
-.qubit:hover {
-    height: 260px;
-    transition: 800ms;
+.qubit a {
+    color: #000;
 }
-
-.qubit img {
-    width: 328px;
-    height: 160px;
-    z-index: 3;
-    position: absolute;
-}
-
-.qubit p {
-    position: absolute;
-    top: 0;
-    z-index: 1;
-    transition: 800ms;
-    margin-left: 10px;
-    font-family: 'Segoe UI';
-}
-
-.qubit:hover>p.one {
-    transition: 800ms;
-    transform: translateY(165px);
-}
-
-.qubit:hover>p.two {
-    transition: 800ms;
-    transform: translateY(185px);
-}
-
-.qubit:hover>p.three {
-    transition: 800ms;
-    transform: translateY(205px);
-}
-
-.qubit:hover>p.four {
-    transition: 800ms;
-    transform: translateY(225px);
-}
-/*smart_dent*/
+/*SMART DENT*/
 .smart_dent {
     grid-column: 9/13;
     grid-row: 2/3;
-    height: 160px;
-    transition: 1000ms;
-    position: relative;
     z-index: 2;
     background: #fff;
 }
-
+.smart_dent a {
+    color: #000;
+}
+.willberis:hover,
+.flowers:hover,
+.indicorp:hover,
+.expoforum:hover,
+.qubit:hover,
 .smart_dent:hover {
     height: 260px;
     transition: 800ms;
 }
 
+.willberis img,
+.flowers img,
+.indicorp img,
+.expoforum img,
+.qubit img,
 .smart_dent img {
     width: 328px;
     height: 160px;
-    z-index: 3;
+    z-index: 4;
     position: absolute;
 }
 
+.willberis p,
+.flowers p,
+.indicorp p,
+.expoforum p,
+.qubit p,
 .smart_dent p {
     position: absolute;
     top: 0;
@@ -393,24 +212,53 @@ h3 {
     font-family: 'Segoe UI';
 }
 
-.smart_dentt:hover>p.one {
+.willberis:hover>p.one,
+.flowers:hover>p.one,
+.indicorp:hover>p.one,
+.expoforum:hover>p.one,
+.qubit:hover>p.one,
+.smart_dent:hover>p.one {
     transition: 800ms;
     transform: translateY(165px);
 }
 
+.willberis:hover>p.two,
+.flowers:hover>p.two,
+.indicorp:hover>p.two,
+.expoforum:hover>p.two,
+.qubit:hover>p.two,
 .smart_dent:hover>p.two {
     transition: 800ms;
     transform: translateY(185px);
 }
 
+.willberis:hover>p.three,
+.flowers:hover>p.three,
+.indicorp:hover>p.three,
+.expoforum:hover>p.three,
+.qubit:hover>p.three,
 .smart_dent:hover>p.three {
     transition: 800ms;
     transform: translateY(205px);
 }
 
+.willberis:hover>p.four,
+.flowers:hover>p.four,
+.indicorp:hover>p.four,
+.expoforum:hover>p.four,
+.qubit:hover>p.four,
 .smart_dent:hover>p.four {
     transition: 800ms;
     transform: translateY(225px);
+}
+.willberis a:hover,
+.flowers a:hover,
+.indicorp a:hover,
+.expoforum a:hover,
+.qubit a:hover,
+.smart_dent a:hover {
+    background: #8E8CD8;
+    border-radius: 3px;
 }
 
 .soon-one,
@@ -479,6 +327,7 @@ h3 {
     background: #000;
     display: flex;
     position: relative;
+    cursor: pointer;
 }
 .insta {
     grid-column: 3/5;
