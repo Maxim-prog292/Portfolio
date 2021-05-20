@@ -13,3 +13,10 @@ function writeMe() {
 function cellMe() {
     window.open('tel:+7-900-588-50-27')
 }
+
+window.onload = function() {
+    let preloader = document.getElementById('preloader'),
+        hidden = document.getElementById('hidden');       
+    preloader.style.display = 'none';
+    hidden.style.overflowY = 'scroll';
+}

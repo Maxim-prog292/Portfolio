@@ -7,19 +7,22 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Maxim Magomedov | Portfolio</title>
 </head>
-<body>
+<body id="hidden">
+    <div id="preloader">
+    <div class="lds-roller" ><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+    </div>
     <header id="header">
         <!-- header -->
         <h2>About me</h2>
         <div class="aboutme">
             <!-- aboutme -->
             <div class="foto-back">
-                <img src="image/figure.png" alt="">
+                <img src="image/figure.png" alt="" class="foto" />
             </div>
-            <h1>Maxim Magomedov</h1>
-            <h3>Frontend developer</h3>
-            <p class="basic-skills">Basic skills: <br /> HTML, CSS, JavaScript, Python.</p>
-            <p class="side-skills">Side skills: <br /> Photoshop, Figma, Git, SASS, English language.</p>
+            <h1 class="myName">Maxim Magomedov</h1>
+            <h3 class="mySpeciality">Frontend developer</h3>
+            <p class="basic-skills"><span>Basic skills:</span> <br /> HTML, CSS, JavaScript, Python.</p>
+            <p class="side-skills"><span>Side skills:</span> <br /> Photoshop, Figma, Git, SASS, English language.</p>
             <!-- aboutme -->
         </div>
         <!-- header -->
@@ -84,26 +87,30 @@
     <footer id="footer">
         <!-- footer -->
             <h2>My social networks</h2>
-            <div class="github" onclick="toGitHub()">
-                <img src="image/github.png" alt="GitHub">
-                <p>GitHub</p>
-            </div>
-            <div class="insta" onclick="toInsta()">
-                <img src="image/insta.png" alt="Instsgram">
-                <p>Instagram</p>
-            </div>
-            <div class="vk" onclick="toVK()">
-                <img src="image/vk.png" alt="VKontakte">
-                <p>VK</p>
+            <div class="social">
+                <div class="github" onclick="toGitHub()">
+                    <img src="image/github.png" alt="GitHub">
+                    <p>GitHub</p>
+                </div>
+                <div class="insta" onclick="toInsta()">
+                    <img src="image/insta.png" alt="Instsgram">
+                    <p>Instagram</p>
+                </div>
+                <div class="vk" onclick="toVK()">
+                    <img src="image/vk.png" alt="VKontakte">
+                    <p>VK</p>
+                </div>
             </div>
             <h2>Contact me</h2>
-            <div class="mail" onclick="writeMe()">
-                <img src="image/mail.png" alt="to write">
-                <p>Mail</p>
-            </div>
-            <div class="phone" onclick="cellMe()">
-                <img src="image/phone.png" alt="call">
-                <p>Phone</p>
+            <div class="contact">
+                <div class="mail" onclick="writeMe()">
+                    <img src="image/mail.png" alt="to write">
+                    <p>Mail</p>
+                </div>
+                <div class="phone" onclick="cellMe()">
+                    <img src="image/phone.png" alt="call">
+                    <p>Phone</p>
+                </div>
             </div>
         <!-- footer -->
     </footer>
