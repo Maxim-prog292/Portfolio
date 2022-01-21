@@ -127,10 +127,10 @@ h3.mySpeciality {
     grid-gap: 20px;
 }
 /*WILLBERIS*/
-.willberis,
-.flowers,
-.indicorp,
-.expoforum,
+.food,
+.joke,
+.race,
+.keyCode,
 .qubit,
 .smart_dent {
     grid-column: 1/5;
@@ -141,39 +141,39 @@ h3.mySpeciality {
     z-index: 3;
     background: #fff;
 }
-.willberis a {
+.food a {
     color: #000;
 }
 /*FLOWERS*/
-.flowers {
+.joke {
     grid-column: 5/9;
     background: #292929;
 }
-.flowers p {
+.joke p {
     color: #fff;
 }
-.flowers a {
+.joke a {
     color: #fff;
 }
 /*INDICORP*/
-.indicorp {
+.race {
     grid-column: 9/13;
     background: #fff;
 }
-.indicorp a {
+.race a {
     color: #000;
 }
 /*EXPOFORUM*/
-.expoforum {
+.keyCode {
     grid-column: 1/5;
     grid-row: 3/5;
     z-index: 2;
     background: #2478fc;
 }
-.expoforum p {
+.keyCode p {
     color: #fff;
 }
-.expoforum a {
+.keyCode a {
     color: #fff;
 }
 /*QUBIT*/
@@ -198,10 +198,10 @@ h3.mySpeciality {
 }
 
 
-.willberis img,
-.flowers img,
-.indicorp img,
-.expoforum img,
+.food img,
+.joke img,
+.race img,
+.keyCode img,
 .qubit img,
 .smart_dent img {
     width: 328px;
@@ -210,10 +210,10 @@ h3.mySpeciality {
     position: absolute;
 }
 
-.willberis p,
-.flowers p,
-.indicorp p,
-.expoforum p,
+.food p,
+.joke p,
+.race p,
+.keyCode p,
 .qubit p,
 .smart_dent p {
     position: absolute;
@@ -234,17 +234,17 @@ p.four {
 }
 
 
-.willberis a:hover,
-.flowers a:hover,
-.indicorp a:hover,
-.expoforum a:hover,
+.food a:hover,
+.joke a:hover,
+.race a:hover,
+.keyCode a:hover,
 .qubit a:hover,
 .smart_dent a:hover {
     background: #8E8CD8;
     border-radius: 3px;
 }
-.willberis a:hover,
-.indicorp a:hover,
+.food a:hover,
+.race a:hover,
 .qubit a:hover,
 .smart_dent a:hover {
     color: #fff;
