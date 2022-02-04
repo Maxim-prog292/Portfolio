@@ -302,6 +302,10 @@ p.four {
 }
 
 
+.todo {
+    grid-column: 9/13;
+}
+
 #footer {
     display: grid;
     grid-template-columns: repeat(12, 67px);
