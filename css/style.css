@@ -126,6 +126,18 @@ h3.mySpeciality {
     grid-template-rows: repeat(6, 160px);
     grid-gap: 20px;
 }
+.calc {
+    grid-column: 1/5;
+    grid-row: 5/5;
+    height: 300px;
+    transition: 800ms;
+    position: relative;
+    z-index: 3;
+    background: #fff;
+}
+.calc a {
+    color: #000;
+}
 /*WILLBERIS*/
 .food,
 .joke,
@@ -203,11 +215,16 @@ h3.mySpeciality {
 .race img,
 .keyCode img,
 .barber img,
-.todo img {
+.todo img,
+.calc img {
     width: 328px;
     height: 160px;
     z-index: 4;
     position: absolute;
+}
+.calc img {
+    width: 150px;
+    left: 85px;
 }
 
 .food p,
@@ -215,7 +232,8 @@ h3.mySpeciality {
 .race p,
 .keyCode p,
 .barber p,
-.todo p {
+.todo p ,
+.calc p{
     position: absolute;
     top: 160px;
     z-index: 1;
@@ -239,7 +257,8 @@ p.four {
 .race a:hover,
 .keyCode a:hover,
 .barber a:hover,
-.todo a:hover {
+.todo a:hover, 
+.calc a:hover {
     background: #8E8CD8;
     border-radius: 3px;
 }
