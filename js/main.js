@@ -19,7 +19,7 @@ vk.addEventListener('click', function toVK(){
 });
 
 mail.addEventListener('click', function writeMe() {
-    window.open('mailto:mmmaks_19@mail.ru?subject=Добрый%20день!');
+    window.open('mailto:mcmagas00@gmail.com?subject=Добрый%20день!');
 });
 
 phone.addEventListener('click', function cellMe() {
