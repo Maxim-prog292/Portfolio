@@ -11,11 +11,11 @@ git.addEventListener('click', function toGitHub(){
 });
 
 insta.addEventListener('click', function toInsta(){
-            window.open('https://www.instagram.com/tgysty/');
+            window.open('https://www.instagram.com/pictirid/');
 });
 
 vk.addEventListener('click', function toVK(){
-            window.open('https://vk.com/only_me_your_dad');
+            window.open('https://vk.com/simaksi');
 });
 
 mail.addEventListener('click', function writeMe() {
